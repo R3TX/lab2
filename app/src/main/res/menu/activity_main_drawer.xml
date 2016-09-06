@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/places"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Places" />
+
+        <item
+            android:id="@+id/perfil"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About Us" />
+    </group>
+
+    <item android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/logOut"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
